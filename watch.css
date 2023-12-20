@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(164, 206, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.watch{
+    height: 80%;
+    width: 77%;
+    background-color: aqua;
+    border-radius: 10px;
+   
+    
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+.time{
+    display: flex;
+    justify-content: center;
+}
+.but{
+    display: flex;
+    gap: 30px;
+    margin-top: 5px;
+}
+.but button{
+    border: none;
+    border-radius: 7px;
+    padding: 5px 12px;
+    background-color: rgb(120, 120, 218);
+}
+.container{
+    background-color: rgb(48, 48, 48);
+    height: 52vh;
+    width: 67vw;
+    margin-top: 30px;
+    margin-left: 77px;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
